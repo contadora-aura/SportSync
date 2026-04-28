@@ -1,0 +1,1 @@
+.\comthread.o: ComThread.c

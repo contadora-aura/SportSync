@@ -1,0 +1,19 @@
+--cpu Cortex-M3
+".\main.o"
+".\inputthread.o"
+".\usart_irq_func.o"
+".\startthread.o"
+".\stopthread.o"
+".\misc.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS_RTX\Lib\ARM\RTX_CM3.lib"
+".\rtx_conf_cm.o"
+".\stm32f10x_exti.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_usart.o"
+".\startup_stm32f10x_md.o"
+".\system_stm32f10x.o"
+--strict --scatter ".\RC_InfoBoard.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RC_InfoBoard.map" -o .\RC_InfoBoard.axf
